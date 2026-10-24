@@ -1,0 +1,33 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local databases and private trading records
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/QQQM_tiingo_history.csv
+data/portfolio_transactions.csv
+
+# Generated outputs and per-user activity
+reports/**
+!reports/.gitkeep
+!reports/README.md
+*.log
+*.bak
